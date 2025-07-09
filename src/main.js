@@ -23,13 +23,6 @@ const createWindow = () => {
       preload: path.join(__dirname, 'preload.js'),
     },
     resizable: false,
-
-    backgroundMaterial: 'dark',
-    titleBarOverlay: {
-      color: '#2c2c2c',
-      symbolColor: '#fff',
-      height: 30,
-    },
   });
 
   // and load the index.html of the app.
